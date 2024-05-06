@@ -14,6 +14,14 @@ wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/instal
 sudo chmod 777 install_miniconda.sh
 sudo ./install_miniconda.sh
 ```
+Install Docker-Compose
+```
+wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_docker.sh
+sudo chmod docker.sh
+sudo ./docker.sh
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+```
 Install Postgres
 ```
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_postgres.sh

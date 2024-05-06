@@ -26,14 +26,20 @@ git clone https://github.com/Pythagora-io/gpt-pilot.git
 cd gpt-pilot
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/casaos-compose.yaml
 ```
-Edit the file .env on /gpt-pilot/pilot/.env
 [Example](https://github.com/Pythagora-io/gpt-pilot/blob/main/pilot/.env.example)
 - Edit [casaos-compose.yaml](https://github.com/hqnicolas/Ollama-Pilot-CasaOs/blob/main/casaos-compose.yaml) to point for [Ollama Server](https://github.com/hqnicolas/OllamaDockerCasaOs)
 ```
 - OPENAI_ENDPOINT=http://10.1.1.1:11434/v1/chat/completions
 ```
+Configure .env
+```
+cd pilot
+mv .env.example .env
+# Edit the file .env with your config
+```
 Build
 ```
+cd ..
 sudo docker-compose build gpt-pilot
 sudo docker-compose up gpt-pilot
 ```

@@ -8,7 +8,19 @@ gemma:7b-instruct-q8_0
 codellama:7b-instruct-fp16
 neural-chat:7b-v3.3-q5_K_M
 ```
-Clone Pythagora Repo.
+Install Miniconda
+```
+wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_miniconda.sh
+sudo chmod 777 install_miniconda.sh
+sudo ./install_miniconda.sh
+```
+Install Postgres
+```
+wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_postgres.sh
+sudo chmod 777 install_postgres.sh
+sudo ./install_postgres.sh
+```
+-Clone Pythagora Repo.
 ```
 git clone https://github.com/Pythagora-io/gpt-pilot.git
 ```

@@ -19,8 +19,9 @@ Install Docker-Compose
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_docker.sh
 sudo chmod 777 docker.sh
 sudo ./docker.sh
-sudo apt-get update
-sudo apt-get install docker-compose-plugin
+sudo apt-get update -y
+sudo apt-get install docker-compose-plugin -y
+sudo apt-get install docker-compose -y
 ```
 Install Postgres
 ```

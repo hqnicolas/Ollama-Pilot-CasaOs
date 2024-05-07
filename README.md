@@ -14,6 +14,12 @@ wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/instal
 sudo chmod 777 install_miniconda.sh
 sudo ./install_miniconda.sh
 ```
+- install CasaOs
+```
+sudo apt-get update -y
+sudo apt-get install curl -y
+wget -qO- https://get.casaos.io/v0.4.7 | sudo bash
+```
 Install Docker-Compose
 ```
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_docker.sh

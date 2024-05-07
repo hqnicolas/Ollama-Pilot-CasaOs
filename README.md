@@ -17,7 +17,7 @@ sudo ./install_miniconda.sh
 Install Docker-Compose
 ```
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/install_docker.sh
-sudo chmod docker.sh
+sudo chmod 777 docker.sh
 sudo ./docker.sh
 sudo apt-get update
 sudo apt-get install docker-compose-plugin

@@ -59,6 +59,7 @@ nano .env
 - `DB_PORT=5432`
 - `DB_USER=pilot`
 - `DB_PASSWORD=pilot`
+- `MODEL_NAME=llama3:8b-instruct-q6_K`
 
 Build
 

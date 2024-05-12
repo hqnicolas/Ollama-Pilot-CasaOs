@@ -39,6 +39,7 @@ cd gpt-pilot
 wget https://raw.githubusercontent.com/hqnicolas/Ollama-Pilot-CasaOs/main/casaos-compose.yaml
 sudo rm docker-compose.yml
 mv casaos-compose.yaml docker-compose.yml
+nano docker-compose.yml
 ```
 [Example](https://github.com/Pythagora-io/gpt-pilot/blob/main/pilot/.env.example)
 - Edit [casaos-compose.yaml](https://github.com/hqnicolas/Ollama-Pilot-CasaOs/blob/main/casaos-compose.yaml) to point for [Ollama Server](https://github.com/hqnicolas/OllamaDockerCasaOs)

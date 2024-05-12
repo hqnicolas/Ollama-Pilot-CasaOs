@@ -60,5 +60,5 @@ sudo docker compose up gpt-pilot
 ```
 - web browser to http://localhost:7681/
 ```
-python main.py --get-created-apps-with-steps
+python main.py
 ```

@@ -46,22 +46,22 @@ mv casaos-compose.yaml docker-compose.yml
 - OPENAI_ENDPOINT=http://10.1.1.1:11434/v1/chat/completions
 ```
 Configure .env
-
-`OPENAI_ENDPOINT=http://10.1.1.1/:11434/v1/chat/completions`
-`OPENAI_API_KEY=ollama`
-`DB_NAME=pilot`
-`DB_HOST=postgres`
-`DB_PORT=5432`
-`DB_USER=pilot`
-`DB_PASSWORD=pilot`
-
 ```
 cd pilot
 mv .env.example .env
 # Edit the file .env with your config
 nano .env
 ```
+- `OPENAI_ENDPOINT=http://10.1.1.1/:11434/v1/chat/completions`
+- `OPENAI_API_KEY=ollama`
+- `DB_NAME=pilot`
+- `DB_HOST=postgres`
+- `DB_PORT=5432`
+- `DB_USER=pilot`
+- `DB_PASSWORD=pilot`
+
 Build
+
 ```
 cd ..
 sudo docker compose build gpt-pilot

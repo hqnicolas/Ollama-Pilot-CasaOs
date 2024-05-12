@@ -3,7 +3,7 @@ services:
         environment:
             - OPENAI_ENDPOINT=http://10.1.1.1:11434/v1/chat/completions
             - OPENAI_API_KEY=ollama
-            - MODEL_NAME=codellama:7b-instruct-fp16
+            - MODEL_NAME=llama3:8b-instruct-q6_K
             - MAX_TOKENS=8192
             - DATABASE_TYPE=postgres
             - DB_NAME=pilot

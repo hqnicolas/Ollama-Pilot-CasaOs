@@ -33,6 +33,7 @@ sudo chmod 777 install_postgres.sh
 sudo ./install_postgres.sh
 ```
 -Clone Pythagora Repo.
+-Configure docker-compose.yml
 ```
 git clone https://github.com/Pythagora-io/gpt-pilot.git
 cd gpt-pilot

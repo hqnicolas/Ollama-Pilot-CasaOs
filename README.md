@@ -52,7 +52,7 @@ mv .env.example .env
 Build
 ```
 cd ..
-sudo docker-compose build gpt-pilot
-sudo docker-compose up gpt-pilot
+sudo docker compose build gpt-pilot
+sudo docker compose up gpt-pilot
 ```
 

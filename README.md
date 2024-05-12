@@ -50,6 +50,7 @@ Configure .env
 cd pilot
 mv .env.example .env
 # Edit the file .env with your config
+nano .env
 ```
 Build
 ```

@@ -1,4 +1,9 @@
 # Ollama-Pilot-CasaOs
+
+<p align="center">
+  <img src=".assets/pilot.png" alt="pilot" width="300">
+</p>
+
 [Pythagora-io/GPT-pilot](https://github.com/Pythagora-io/gpt-pilot/) Ported to Ollama docker Compose
 
 - [Install Ollama Server](https://github.com/hqnicolas/OllamaDockerCasaOs) with ROCm GPU

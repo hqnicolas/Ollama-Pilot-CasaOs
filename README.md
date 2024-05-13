@@ -1,7 +1,7 @@
 <p align="center">
   <img src=".assets/pilot.png" alt="pilot" width="150">
 </p>
-<h1 align="center"> Ollama Pilot Docker Container</h1>
+<h1 align="center"> Ollama Pilot Docker Container Template</h1>
 
 [Pythagora-io/GPT-pilot](https://github.com/Pythagora-io/gpt-pilot/) Ported to Ollama docker Compose
 

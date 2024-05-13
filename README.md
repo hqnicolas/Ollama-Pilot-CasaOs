@@ -1,8 +1,7 @@
-# Ollama-Pilot-CasaOs
-
 <p align="center">
   <img src=".assets/pilot.png" alt="pilot" width="250">
 </p>
+<h1 align="center"> Ollama Pilot Docker Container</h1>
 
 [Pythagora-io/GPT-pilot](https://github.com/Pythagora-io/gpt-pilot/) Ported to Ollama docker Compose
 

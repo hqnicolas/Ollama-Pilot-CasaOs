@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".assets/pilot.png" alt="pilot" width="250">
+  <img src=".assets/pilot.png" alt="pilot" width="150">
 </p>
 <h1 align="center"> Ollama Pilot Docker Container</h1>
 

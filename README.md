@@ -4,9 +4,10 @@
 <p align="center">
   <a href="https://github.com/Pythagora-io/">Pythagora-io</a>/
   <a href="https://github.com/Pythagora-io/gpt-pilot/">GPT-pilot</a>
-  
+</p>  
+  <p align="center">
   Ported to Ollama docker Compose
-</p>
+  </p>
 <h1 align="center"> Ollama Pilot Docker Container Template</h1>
 
 - [Install Ollama Server](https://github.com/hqnicolas/OllamaDockerCasaOs) with ROCm GPU

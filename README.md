@@ -72,3 +72,7 @@ sudo docker compose up gpt-pilot
 ```
 python main.py
 ```
+- Output Folder:
+ ``` 
+/DATA/Downloads/pythagora/gpt-pilot/workspace/
+```

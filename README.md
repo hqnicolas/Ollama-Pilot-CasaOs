@@ -1,9 +1,13 @@
 <p align="center">
   <img src=".assets/pilot.png" alt="pilot" width="150">
 </p>
+<p align="center">
+  <a href="https://github.com/Pythagora-io/">Pythagora-io</a>/
+  <a href="https://github.com/Pythagora-io/gpt-pilot/">GPT-pilot</a>
+  
+  Ported to Ollama docker Compose
+</p>
 <h1 align="center"> Ollama Pilot Docker Container Template</h1>
-
-[Pythagora-io/GPT-pilot](https://github.com/Pythagora-io/gpt-pilot/) Ported to Ollama docker Compose
 
 - [Install Ollama Server](https://github.com/hqnicolas/OllamaDockerCasaOs) with ROCm GPU
 - Make Sure that you have the following Images:

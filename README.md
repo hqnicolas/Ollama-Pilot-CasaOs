@@ -26,6 +26,7 @@ sudo ./install_miniconda.sh
 sudo apt-get update -y
 sudo apt-get install curl -y
 wget -qO- https://get.casaos.io/v0.4.7 | sudo bash
+# for newer version: curl -fsSL https://get.casaos.io | sudo bash
 ```
 Install Docker-Compose
 ```
